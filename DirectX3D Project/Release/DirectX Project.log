@@ -1,0 +1,27 @@
+﻿Build started 09/08/2015 21:00:12.
+     1>Project "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\DirectX Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\packages\fx11_desktop_2013.2015.4.14.2\build\native\../../build/native/include/" /I"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX Project\DirectXTK\Inc" /I"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Effects11\inc" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D HAS_FX11 /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Release\DirectX Project.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Cube.cpp
+         Cube.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Release\DirectX Project.exe" /INCREMENTAL:NO /NOLOGO "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\packages\fx11_desktop_2013.2015.4.14.2\build\native\../../build/native/lib/Win32/Release/Effects11.lib" d3d11.lib dxguid.lib uuid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:settings.manifest /DEBUG /PDB:"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Release\DirectX Project.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Release\DirectX Project.lib" /MACHINE:X86 /SAFESEH Release\resource.res
+         Release\Camera.obj
+         Release\Cube.obj
+         Release\Light.obj
+         Release\Simulation.obj
+         Release\Object.obj
+         Release\Main.obj
+         Release\pch.obj
+         Release\Shape.obj
+         Release\Sphere.obj
+         Release\VertexBuffer.obj
+         "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\DirectXTK\Bin\Desktop_2013\Win32\Release\DirectXTK.lib"
+         "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Effects11\Bin\Desktop_2013\Win32\Release\Effects11.lib"
+         Generating code
+         Finished generating code
+         DirectX Project.vcxproj -> C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Release\DirectX Project.exe
+     1>Done Building Project "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\DirectX Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.95

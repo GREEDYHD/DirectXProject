@@ -1,0 +1,26 @@
+﻿Build started 20/08/2015 05:21:57.
+     1>Project "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\DirectX Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\packages\fx11_desktop_2013.2015.4.14.2\build\native\../../build/native/include/" /I"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX Project\DirectXTK\Inc" /I"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Effects11\inc" /Zi /nologo /W3 /WX- /Od /D HAS_FX11 /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"x64\Debug\DirectX Project.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Simulation.cpp
+         Simulation.cpp
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\x64\Debug\DirectX Project.exe" /INCREMENTAL /NOLOGO "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\packages\fx11_desktop_2013.2015.4.14.2\build\native\../../build/native/lib/x64/Debug/Effects11.lib" d3d11.lib dxguid.lib uuid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:settings.manifest /DEBUG /PDB:"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\x64\Debug\DirectX Project.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\x64\Debug\DirectX Project.lib" /MACHINE:X64 x64\Debug\resource.res
+         x64\Debug\Camera.obj
+         x64\Debug\Cube.obj
+         x64\Debug\Light.obj
+         x64\Debug\Simulation.obj
+         x64\Debug\Object.obj
+         x64\Debug\Main.obj
+         x64\Debug\pch.obj
+         x64\Debug\Shape.obj
+         x64\Debug\Sphere.obj
+         x64\Debug\VertexBuffer.obj
+         "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\DirectXTK\Bin\Desktop_2013\x64\Debug\DirectXTK.lib"
+         "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Effects11\Bin\Desktop_2013\x64\Debug\Effects11.lib"
+         DirectX Project.vcxproj -> C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\x64\Debug\DirectX Project.exe
+     1>Done Building Project "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\DirectX Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.40

@@ -1,0 +1,5 @@
+C:\Users\David_000\Documents\GEA\GEA_Rocket\TeamRocketGame\MakeSpriteFont\bin\Debug\MakeSpriteFont.exe
+C:\Users\David_000\Documents\GEA\GEA_Rocket\TeamRocketGame\MakeSpriteFont\bin\Debug\MakeSpriteFont.pdb
+C:\Users\David_000\Documents\GEA\GEA_Rocket\TeamRocketGame\MakeSpriteFont\obj\Debug\MakeSpriteFont.csprojResolveAssemblyReference.cache
+C:\Users\David_000\Documents\GEA\GEA_Rocket\TeamRocketGame\MakeSpriteFont\obj\Debug\MakeSpriteFont.exe
+C:\Users\David_000\Documents\GEA\GEA_Rocket\TeamRocketGame\MakeSpriteFont\obj\Debug\MakeSpriteFont.pdb

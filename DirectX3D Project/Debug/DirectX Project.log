@@ -1,0 +1,26 @@
+﻿Build started 12/08/2015 13:03:07.
+     1>Project "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\DirectX Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\packages\fx11_desktop_2013.2015.4.14.2\build\native\../../build/native/include/" /I"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX Project\DirectXTK\Inc" /I"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Effects11\inc" /ZI /nologo /W3 /WX- /Od /Oy- /D HAS_FX11 /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\DirectX Project.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt VertexBuffer.cpp
+         VertexBuffer.cpp
+     1>c:\users\david_000\documents\visual studio 2013\projects\directx3d project\vertexbuffer.cpp(188): warning C4316: 'ConstantBuffer' : object allocated on the heap may not be aligned 16
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Debug\DirectX Project.exe" /INCREMENTAL /NOLOGO "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\packages\fx11_desktop_2013.2015.4.14.2\build\native\../../build/native/lib/Win32/Debug/Effects11.lib" d3d11.lib dxguid.lib uuid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:settings.manifest /DEBUG /PDB:"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Debug\DirectX Project.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Debug\DirectX Project.lib" /MACHINE:X86 Debug\resource.res
+         Debug\Camera.obj
+         Debug\Cube.obj
+         Debug\Light.obj
+         Debug\Simulation.obj
+         Debug\Object.obj
+         Debug\Main.obj
+         Debug\pch.obj
+         Debug\Shape.obj
+         Debug\Sphere.obj
+         Debug\VertexBuffer.obj
+         "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\DirectXTK\Bin\Desktop_2013\Win32\Debug\DirectXTK.lib"
+         "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Effects11\Bin\Desktop_2013\Win32\Debug\Effects11.lib"
+         DirectX Project.vcxproj -> C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\Debug\DirectX Project.exe
+     1>Done Building Project "C:\Users\David_000\Documents\Visual Studio 2013\Projects\DirectX3D Project\DirectX Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.57
